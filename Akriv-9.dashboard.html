@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html>
 <head>
   <meta charset="UTF-8">
   <title>Arkiv 9 - Intern Översikt</title>
@@ -20,9 +20,15 @@
   </nav>
 </header>
 
-<section class="section">
+<section class="section system-overview">
+  <div class="overview-search"></div>
   <h2>SYSTEMÖVERSIKT</h2>
   <p>Alla system körs inom accepterade toleranser.</p>
+
+
+  <h2>Sök i systemet</h2>
+  <input type="text" placeholder="Sök händelser eller dokument...">
+  </div>
 </section>
 
 <section class="section modules">
@@ -40,7 +46,31 @@
     <strong>Systemhälsa</strong>
     <p>Status: Stabil</p>
   </div>
+
+  <div class="module">
+    <strong>Aktiva Ärenden</strong>
+    <p>3 pågående ärenden.</p>
+    <p>Senaste åtgärd: Kontroll av dokument 07A.</p>
+  </div>
+
+  <div class="module">
+    <strong>Säkerhetskontroller</strong>
+    <p>Senast verifierad: 2026-01-21</p>
+    <p>Inga avvikelser registrerade.</p>
+  </div>
+
+  <div class="module">
+    <strong>Systemhälsa</strong>
+    <p>Status: Stabil</p>
+    <p>Alla noder online och synkroniserade.</p>
+  </div>
+
+  <div class="module">
+    <strong>Nyheter & Aviseringar</strong>
+    <p>Ingen ny information sedan senaste kontroll.</p>
+  </div>
 </section>
+
 <footer>
   Intern vy - Ej tillgänglig för externa användare
 </footer>
